@@ -1,0 +1,42 @@
+{
+  "name": "react-playground-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:sb": "start-storybook -p 6006",
+    "build:sb": "build-storybook -o storybook-build",
+    "build:lib": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-info": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/react": "^5.0.11",
+    "@types/jest": "^24.0.12",
+    "@types/storybook__react": "^4.0.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "cz-conventional-changelog": "2.1.0",
+    "jest": "^24.8.0",
+    "react-docgen-typescript-loader": "^3.1.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "storybook": "^1.0.0",
+    "storybook-readme": "^5.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
