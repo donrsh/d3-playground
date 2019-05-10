@@ -4,7 +4,10 @@
   "jsRules": {},
   "rules": {
     "no-empty": false,
-    "no-console": false
+    "no-console": false,
+    "no-implicit-dependencies": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false
   },
   "rulesDirectory": []
 }
