@@ -1,5 +1,5 @@
 {
-  "name": "ts-lib-template",
+  "name": "react-ts-lib-template",
   "version": "0.0.1",
   "description": "A template to start build react component lib in typescript",
   "main": "index.js",
