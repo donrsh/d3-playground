@@ -1,7 +1,7 @@
 {
-  "name": "react-playground-ts",
-  "version": "1.0.0",
-  "description": "",
+  "name": "ts-lib-template",
+  "version": "0.0.1",
+  "description": "A template to start build react component lib in typescript",
   "main": "index.js",
   "scripts": {
     "test": "jest --env=jsdom --watch",
