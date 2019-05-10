@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --env=jsdom --watch",
+    "test:lib": "jest --env=jsdom",
     "start:sb": "start-storybook -p 6006",
     "build:sb": "build-storybook -o storybook-build",
     "build:lib": "tsc"
