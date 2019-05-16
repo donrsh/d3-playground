@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import Button from './button';
+import Button from './Button';
 
 storiesOf('Button', module)
   .add('with text', () => <Button disabled>Hello Button</Button>)
