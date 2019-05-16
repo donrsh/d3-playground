@@ -3,3 +3,6 @@
 # builds
 /storybook-build
 /lib-build
+
+# others
+.storybook/webpack.config.debug.json
