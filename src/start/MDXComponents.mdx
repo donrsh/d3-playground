@@ -1,0 +1,91 @@
+# This is H1
+
+<br />
+
+## This is H2
+
+<br />
+
+### This is H3
+
+<br />
+
+#### This is H4
+
+<br />
+
+##### This is H5
+
+<br />
+
+###### This is H6
+
+<br />
+
+###### This is a paragraph
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae possimus molestias hic iste blanditiis error eaque nisi totam repellendus sapiente quia, expedita fugiat asperiores ex, ea tenetur repellat, dolorum earum.
+
+**Note** that, you can also ~~also~~ see some effect on _emphasis_ 🙂🙂🙂
+
+<br />
+
+###### This is a blockquote
+
+> 童年，我們的目光瞥向世界一次；剩下的只餘記憶。
+
+<br />
+
+###### Migrate from react components to react hooks
+
+- Everything stays constants within the whole component lifecycle should be refactored with `useRef`. Note: although `useRef` may suggest usage mainly on setting node refs, basically you'll find that every instance field of a component should be kept via a `useRef`.
+
+- Everything may change within the whole component lifecycle should be refactored with `useState`. Or out of some reason (personally preference or complex state change), you can also use `useReducer` for redux-like API.
+
+- Everything from `componentDidMount`, `componentDidUpdate`, `componentWillUnmount` should be refactored within `useEffect`. The second argument of `useEffect` is used to regulate whether to "cause the effect" when props changes.
+
+<br />
+
+###### Unordered List
+
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+
+<br />
+
+###### Ordered List
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+<br />
+
+###### Image
+
+![Image](https://cdn.pixabay.com/photo/2015/05/15/14/47/computer-768696_1280.jpg)
+
+<br />
+
+###### Links
+
+See [MDX](https://mdxjs.com/getting-started), and also [React](https://reactjs.org/)
+
+<br />
+
+###### Table
+
+| First Header                | Second Header                |
+| --------------------------- | ---------------------------- |
+| Content from cell 1         | Content from cell 2          |
+| Content in the first column | Content in the second column |
+
+---
+
+Refs
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
