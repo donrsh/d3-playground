@@ -1,6 +1,7 @@
 import React from 'react';
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { MDXProvider } from '@mdx-js/react';
+// import { addReadme } from 'storybook-readme';
 
 import {
   Wrapper,
@@ -66,10 +67,12 @@ const MDXWrapper = storyFn => (
 );
 
 addDecorator(MDXWrapper);
+// addDecorator(addReadme);
 
 addParameters({
   options: {
     showPanel: false,
+    panelPosition: 'right',
   },
 });
 
