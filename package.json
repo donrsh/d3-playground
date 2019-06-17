@@ -1,7 +1,7 @@
 {
-  "name": "react-ts-lib-template",
+  "name": "d3-react-playground",
   "version": "0.0.1",
-  "description": "A template to start build react component lib in typescript",
+  "description": "Re-implement of d3 examples for learning",
   "main": "index.js",
   "scripts": {
     "test": "jest --env=jsdom --watch",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.0.2",
+    "d3": "^5.9.2",
     "emotion": "^10.0.9",
     "ramda": "^0.26.1",
     "react": "^16.8.6",
