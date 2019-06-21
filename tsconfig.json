@@ -21,7 +21,8 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "typeRoots": ["typings"]
+    "typeRoots": ["typings"],
+    "downlevelIteration": true
   },
   "include": ["src/**/*"],
   "exclude": [
