@@ -22,7 +22,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "typeRoots": ["typings"],
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": [
